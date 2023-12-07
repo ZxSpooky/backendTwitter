@@ -1,6 +1,15 @@
 git add .
-git commit -m "Ultimo commit"
+
+git commit -m "ultimo commit"
+
 git push
-go build main.go
+
+set GOOS=linux
+
+set GOARCH=amd64
+
+go buil main.go
+
 del main.zip
+
 tar.exe -a -cf main.zip main
