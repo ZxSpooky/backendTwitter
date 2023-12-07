@@ -8,7 +8,7 @@ set GOOS=linux
 
 set GOARCH=amd64
 
-go buil main.go
+go build main.go
 
 del main.zip
 
