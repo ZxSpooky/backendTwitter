@@ -1,5 +1,5 @@
 git add .
-git commit -m "Ultimo Commit"
+git commit -m "Ultimo commit"
 git push
 go build main.go
 del main.zip
